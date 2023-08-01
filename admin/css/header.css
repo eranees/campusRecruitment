@@ -1,0 +1,49 @@
+body
+{
+  margin:0;
+  padding:0;
+  background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif !important;
+
+}
+	
+#top {
+height:65px;
+
+background-image: linear-gradient( to right bottom,  #42275a , #734b6d);
+
+position:fixed;
+color:white;
+right: 0;
+left:0;
+padding:10px;
+top: 0;
+  }
+
+#span_txt_top
+{
+margin-left:40px;
+color:white;
+word-spacing:7px; 
+font-size: 35px;
+font-weight: 900;
+
+
+}
+
+#logout_a
+{
+text-decoration: none;
+float: right;
+margin-top:30px;
+margin-right:25px;
+font-size:12pt;
+font-weight:400;  
+color:white;
+}
+
+#logout_a:hover
+{
+ color:#1abc9c; 
+}
+
