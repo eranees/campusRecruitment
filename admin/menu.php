@@ -10,23 +10,27 @@
   include('../db.php');
   $res7 = mysqli_query($con, "select * from company_login where status='Pending'");
   $cr = mysqli_num_rows($res7);
+
+  $students = mysqli_query($con, "select * from users where status = 0 ");
+  $stdNA = mysqli_num_rows($students);
   echo "<span id='span_user_name'>" . $_SESSION["admin_name"] . "</span>";
   ?><br /><br />
   <ul>
     <li> <a href="dashboard.php" class="links"> Dashboard </a> </li><br />
     <li> <a href="companies.php" class="links"> Companies </a> </li><br />
+    <li> <a href="students.php" class="links"> Students </a> </li><br />
     <li> <a href="jobs.php" class="links"> All Jobs </a> </li><br />
 
 
     <li style="padding-bottom: 30px;"> <a href="company-request.php" class="links">
-        Company Requests <span class="badge badge-light"> <?php echo               $cr;  ?></span>
-
-
-
+        Company Requests <span class="badge badge-light"> <?php echo $cr;  ?></span>
       </a>
     </li><br />
 
-
+    <li style="padding-bottom: 30px;"> <a href="student-request.php" class="links">
+        Student Requests <span class="badge badge-light"> <?php echo $stdNA;  ?></span>
+      </a>
+    </li><br />
 
     <li> <a href="applicants.php" class="links">Registered Applicants </a> </li><br />
     <li> <a href="job_category.php" class="links"> Job Categories/Industries </a> </li><br />

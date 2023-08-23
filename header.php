@@ -63,7 +63,8 @@ ob_start();
                 <?php
                 // session_start();     
                 if (isset($_SESSION["userLogin"])) { ?>
-                    <li><a href="my-account.php">My Account </a> </li>
+                    <li><a href="my-account.php">Profile</a> </li>
+                    <li><a href="notifications.php">Notifications</a> </li>
                     <li><a href="logout.php">Logout</a> </li>
 
                 <?php } else { ?>

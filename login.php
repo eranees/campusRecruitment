@@ -64,14 +64,21 @@ if (isset($_SESSION["userLogin"])) {
 
 if (isset($_POST["login_acc"])) {
   require_once 'db.php';
-  $res = mysqli_query($con, "select * from users where password='" . $_POST['password'] . "' AND email='" . $_POST['email'] . "'  AND status ='1' ");
+  $res = mysqli_query($con, "SELECT * FROM users WHERE password='" . $_POST['password'] . "' AND email='" . $_POST['email'] . "' ");
   if (mysqli_num_rows($res) > 0) {
     $row = mysqli_fetch_assoc($res);
-    session_start();
-    $_SESSION["exp"] = $row['experience'];
-    $_SESSION["userLogin"] = $row['id'];
-    $_SESSION['userName'] = $row['name'];
-    header('location:index.php');
+    $res = mysqli_query($con, "SELECT * FROM users WHERE status='" . 1 . "' AND id ='" . $row['id'] . "'");
+    if (mysqli_num_rows($res) > 0) {
+      session_start();
+      $_SESSION["exp"] = $row['experience'];
+      $_SESSION["userLogin"] = $row['id'];
+      $_SESSION['userName'] = $row['name'];
+      header('location:index.php');
+    } else {
+      echo '<script language="javascript">';
+      echo 'alert("You Are Not Approved Yet...")';
+      echo '</script>';
+    }
   } else {
     echo '<script language="javascript">';
     echo 'alert("Email address or Password seems wrong! Please try again.")';

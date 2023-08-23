@@ -19,7 +19,6 @@
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
       <div class="item active">
         <div style="background-image: url(img/6.jpg);background-size: 100%; height: 700px;">
           <div style="" class='title-wrap'>
@@ -33,25 +32,20 @@
       <div class="item">
         <div style="background-image: url(img/22.jpg);background-size: 100%; height: 700px;">
           <div class='title-wrap'>
-
             <h1 class='all_titles' style="color: #C743AC; ">The home of your dream job</h1>
-
           </div>
         </div>
       </div>
-
       <div class="item">
         <div style="background-image: url(img/8.jpg);background-size: 100%; height: 700px;">
           <div style="" class='title-wrap'>
-
             <h1 class='all_titles' style="color: #C743AC;">Exceed your potential… come join us!</h1>
-
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Left and right controls -->
+    <!-- Left and right controls
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -59,12 +53,11 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a> -->
+
   </div>
   <div class='jobs' style='margin-top: 30px; margin-bottom: 30px;'> <br />
-
     <h1 style="text-align: center; color:#e80a89"> Find latest job openings</h1>
-
     <div class="container" style="background-color: whitesmoke">
       <div style="height:auto; margin-left:6%; margin-top:30px; ">
         <div class="row div_products">

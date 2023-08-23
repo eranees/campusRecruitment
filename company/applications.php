@@ -64,7 +64,10 @@
         if (empty($row['resume'])) {
           echo "<td>" . "Resume not uploaded Yet!" . " </td>";
         } else {
-          echo "<td>" . "<a href='../$row[resume]' class='btn btn-info'> Download-Resume</a>" . "</td>";
+          echo "<td>"
+            . "<a href='../$row[resume]' class='btn btn-info'>Download-Resume</a>"
+            . "<a href='../$row[resume]'  target='_blank' class='btn btn-primary'>View-Resume</a>"
+            . "</td>";
         }
         echo "<td>" . "<a  class='btn btn-success' href='my-details.php?id=" . $row['user_id'] . "'> Qualification-details</a>" . "</td>";
         echo "<td>" . "<a href='mail.php'> Send Mail</a>" . "</td>";
