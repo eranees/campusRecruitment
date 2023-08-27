@@ -14,7 +14,7 @@
   ?>
   <div style="background-color: whitesmoke; width:1200px;height: 1000px;margin-left: 230px;">
     <div style=" padding:90px;">
-      <h1 style="text-align: center;font-family: 'Lobster', cursive;color: #333"> Companies </h1><br />
+      <h1 style="text-align: center;font-family: 'Lobster', cursive;color: #333"> Students </h1><br />
       <?php
       include('../db.php');
       $res = mysqli_query($con, "select * from users");
