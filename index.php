@@ -23,7 +23,7 @@
         <div style="background-image: url(img/6.jpg);background-size: 100%; height: 700px;">
           <div style="" class='title-wrap'>
             <marquee behavior="alternate" direction='left'>
-              <h1 class='all_titles' style="color: #C743AC">Choose a job you love</h1>
+              <h1 class='all_titles'</h1>
             </marquee>
           </div>
         </div>
@@ -32,14 +32,14 @@
       <div class="item">
         <div style="background-image: url(img/22.jpg);background-size: 100%; height: 700px;">
           <div class='title-wrap'>
-            <h1 class='all_titles' style="color: #C743AC; ">The home of your dream job</h1>
+            <h1 class='all_titles'</h1>
           </div>
         </div>
       </div>
       <div class="item">
         <div style="background-image: url(img/8.jpg);background-size: 100%; height: 700px;">
           <div style="" class='title-wrap'>
-            <h1 class='all_titles' style="color: #C743AC;">Exceed your potential… come join us!</h1>
+            <h1 class='all_titles'</h1>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
 </html>
 <style>
   body {
-    background-color: grey;
+    background-color: lightblue;
   }
 
   .all_details {

@@ -70,7 +70,7 @@
             . "</td>";
         }
         echo "<td>" . "<a  class='btn btn-success' href='my-details.php?id=" . $row['user_id'] . "'> Qualification-details</a>" . "</td>";
-        echo "<td>" . "<a href='mail.php'> Send Mail</a>" . "</td>";
+        echo "<td>" . "<a href='mail.php?email=" . $row['email'] . "'> Send Mail</a>" . "</td>";
 
 
 

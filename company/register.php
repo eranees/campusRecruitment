@@ -8,16 +8,12 @@
     require_once('../validation.php');
     
   ?>
-
-
-
-  
-      <link rel="stylesheet" href="css/register.css"> 
+    <link rel="stylesheet" href="css/register.css"> 
 </head>
 
 <body  >
 <div class="title">
-  <h1>Company Registration</h1><span>Get the best workforce  </span>
+  <h1>Company Registration</h1>
 </div>
 <!-- Form Module-->
 <div class="module form-module">

@@ -62,9 +62,11 @@
                                 <option value='BOYS DEFREE COLLEGE KULGAM'>BOYS DEFREE COLLEGE KULGAM</option>
                                 <option value='BOYS DEFREE COLLEGE SHOPAIN'>BOYS DEFREE COLLEGE SHOPAIN</option>
                                 <option value='WOMENS COLLEGE KULGAM'>WOMENS COLLEGE KULGAM</option>
+                                <option value='DEGREE COLLEGE GANDERBAL'>DEGREE COLLEGE GANDERBAL</option>
+
                                 <option value='WOMENS COLLEGE SHOPAIN'>WOMENS COLLEGE SHOPAIN</option>
                                 <option value='BABA GHULAM SHAH BADSHAH UNIVERSITY RAJOURI'>BABA GHULAM SHAH BADSHAH
-                                    UNIVERSITY RAJOURI/option>
+                                    UNIVERSITY RAJOURI</option>
                                 <option value='KASHMIR UNIVERSITY SRINAGAR'>KASHMIR UNIVERSITY SRINAGAR</option>
                                 <option value=' OTHER'>OTHER</option>
                             </select> </td>
@@ -106,6 +108,7 @@
                                 <option value='IUST'>IUST</option>
                                 <option value='CENTRAL UNIVERSITY'>CENTRAL UNIVERSITY</option>
                                 <option value='IGNOU'>IGNOU</option>
+                                <option value='BABA GHULAM SHAH BADSHAH UNIVERSITY RAJOURI'>BABA GHULAM SHAH BADSHAH UNIVERSITY RAJOURI</option>
                                 <option value='OTHER'>OTHER</option>
                             </select> </td>
                     </tr>

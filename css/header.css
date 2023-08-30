@@ -46,15 +46,14 @@
    font-weight: 400;
    letter-spacing: 1px;
    color: #fff;
-   text-decoration: none;
+/*   text-decoration: none;*/
  }
 
  .all_link a:hover {
-   color: #fff;
-   border-bottom: 2px solid red;
+   color: #fff;s
  }
 
- /* Responsive Styles */
+/*  Responsive Styles */
  @media screen and (max-width: 768px) {
    .all_link li {
      display: block;

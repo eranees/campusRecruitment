@@ -6,7 +6,7 @@ body
 	
 #top {
 height:65px;
-background-image: linear-gradient( to right bottom, #614385 ,#516395);
+background-image: linear-gradient( to right bottom, lightblue , lightblue);
 
 
 position:fixed;

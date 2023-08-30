@@ -69,8 +69,8 @@ ob_start();
 
                 <?php } else { ?>
 
-                    <li><a id='btnsignin' style="cursor: pointer;" href="login.php">User Login</a> </li>
-                    <li><a href="register.php">User Register</a> </li>
+                    <li><a id='btnsignin' style="cursor: pointer;" href="login.php">Student Login</a> </li>
+                    <li><a href="register.php">Student Registeration</a> </li>
                     <li><a href="admin/login.php">Admin Login</a> </li>
                 <?php } ?>
 
@@ -124,26 +124,6 @@ if (isset($_POST["login_acc"])) {
     body {
         font-family: 'Raleway', sans-serif !important;
         /*text-transform: capitalize;*/
-
-
-    }
-
-    #login {
-
-        top: 25%;
-        width: 650px;
-        height: auto;
-        padding: 10px;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        position: absolute;
-        border-radius: 5px;
-        color: black;
-        background-color: #fff;
-        z-index: 9999990;
-        border: 1px solid #ddd;
-        font-size: 16px;
-
     }
 
     .input_all_login {

@@ -2,10 +2,15 @@
 <html>
 
 <head>
-  <title></title>
+  <title>Student Registration</title>
+
+ <?php require_once('captcha_addition.php'); 
+       require_once('header.php');
+       require_once('validation.php');
+       require_once('all.php'); ?>
 </head>
-<?php require_once('header.php'); ?>
-<?php require_once('captcha_addition.php'); ?>
+
+
 <script type="text/javascript">
   function Cap() {
     Captcha();
@@ -17,9 +22,9 @@
 
 <body onload="Captcha1()">
 
-  <div class='container' style="background-color: white">
+  <div class='container' style="background-color: whitesmoke;">
 
-    <h3 class='one'>Let the top employers of your industry reach you. Register on University Campus Placement System for free!</h3><br />
+    <h3 class='one'> Student Registration</h3>
     <div class='hr'> </div>
     <h4 style="text-align:center;font-weight: 600; color: #c60; font-size: 18px; margin-left: 30px">Fill Out The Following Details</h4>
     <div class='hr'> </div>
@@ -75,7 +80,7 @@
 
 
         <tr>
-          <td> <label>Address <span class='must'>* </span></label> </td>
+          <td> <label>Current Address <span class='must'>* </span></label> </td>
           <td><textarea name="address" class='ta' placeholder="Your Address" style="height: 100px;" required></textarea> </td>
 
         </tr>
@@ -86,7 +91,7 @@
 
         <tr>
           <td> <label> Password </span></label> <span class='must'>* </span></td>
-          <td><input type="text" name="password" placeholder="Password" required> </td>
+          <td><input type="password" name="password" placeholder="Password" required> </td>
         </tr>
 
         <tr>
@@ -122,7 +127,7 @@
 
   </div>
 
-  <?php require_once('footer.php'); ?>
+  <!-- <?php require_once('footer.php'); ?> -->
 
 </body>
 
@@ -174,21 +179,26 @@ if (isset($_POST['btn_sbmt'])) {
 
 
 <style>
-  .one {
-
-    text-align: center;
-    color: #007bff;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
-    line-height: 40px;
-  }
 
   body {
-    background-color: #323232;
+    background-color: lightblue;
     font-family: 'Roboto', sans-serif;
+  }
+   .one {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #323232;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+/*    text-transform: capitalize;*/
+    line-height: 40px;
+    font-family: 'Charmonman', cursive;
+  }
+  .container{
+    width: 70%;
+
   }
 
 
@@ -198,7 +208,7 @@ if (isset($_POST['btn_sbmt'])) {
   .ta,
   input[type=password] {
     height: 42px;
-    width: 530px;
+    width: 400px;
     padding: 9px;
     text-indent: 12px;
     outline: none;

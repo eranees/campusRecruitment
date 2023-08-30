@@ -19,7 +19,7 @@
       ?>
         <li>
           <div class="slider_inner text-center">
-            <span><?php echo $rev['name']; ?> </span><br>
+            <span style="margin-left:20px;"><?php echo $rev['name']; ?> </span><br>
             <?php
             echo "<img src='$rev[profile]' style='width:80px; height:80px;border-radius:50%;'>";
             ?>

@@ -21,12 +21,12 @@
                   echo "<table class='table table-striped table-bordered'>";
                   echo "<tr class='success'>";
                   echo "<th>"."Company Name"."</th>";
-                   echo "<th>"."Email Id"."</th>";
+                  echo "<th>"."Email Id"."</th>";
                   echo "<th>"." Contact"."</th>";
                   echo "<th>"." About Company"."</th>";
-                    echo "<th>"." Current Status"."</th>";
-                   echo "<th>"." Confirm "."</th>";
-                   echo "</tr>";
+                  echo "<th>"." Current Status"."</th>";
+                  echo "<th>"." Confirm "."</th>";
+                  echo "</tr>";
               	 while($r=mysqli_fetch_assoc($res))
               	 {
                   echo "<tr>";

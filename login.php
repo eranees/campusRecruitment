@@ -26,6 +26,7 @@ if (isset($_SESSION["userLogin"])) {
 </head>
 
 <body onload="Cap()">
+  <div class='container'>
   <div id="login" style="width:50%;margin:0 auto;margin-top:5%;" class=" panel panel-primary">
     <div class="login_txt panel-heading" style="font-weight: 700;font-size: 18px;"> Login </div> <br />
 
@@ -55,7 +56,7 @@ if (isset($_SESSION["userLogin"])) {
     <div style="text-align: center;font-size: 14px;">Not a memeber as yet? <a href="register.php">Register Now</a>
     </div><br />
 
-
+  </div>
   </div>
 </body>
 
@@ -86,3 +87,27 @@ if (isset($_POST["login_acc"])) {
   }
 }
 ?>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+  }
+  .container
+  {
+    margin-left: 300px;
+  }
+  #login {
+
+        width: 750px;
+        padding: 10px;
+        position: absolute;
+        border-radius: 5px;
+        background-color: #fff;
+        z-index: 9999990;
+        border: 1px solid #ddd;
+        font-size: 16px;
+
+
+    }
+</style>

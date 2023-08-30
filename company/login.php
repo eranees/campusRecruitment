@@ -75,7 +75,7 @@ ob_start();
 
 <body onload=" Captcha()">
   <div class="title">
-    <h1>Company Login</h1><span>Get the best workforce </span>
+    <h1>Company Login</h1>
   </div>
 
   <div class="module form-module">
